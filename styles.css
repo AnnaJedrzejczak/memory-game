@@ -1,0 +1,82 @@
+h1 {
+    text-align: center;
+    display: block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+    font-style: italic;
+    color: rgb(187, 128, 89)
+
+}
+
+.row {
+    text-align:center;
+
+}
+
+.card {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(184, 147, 184);
+    cursor: pointer;
+
+}
+
+.card.done {
+    cursor: default;
+}
+
+.card.done:hover {
+    cursor: default;
+    box-shadow: none;
+}
+
+.card:hover {
+    box-shadow: inset 0px 0px 0px 5px black;
+    box-sizing: border-box;
+
+}
+
+.red {
+    background-image: url('images/console.jpg');
+}
+
+.green {
+    background-color: green;
+    background-image: url('images/snake.jpg');
+}
+
+.blue {
+    background-color: blue;
+    background-image: url('images/polarbear.jpg');
+}
+
+.orange {
+    background-color: orange;
+    background-image: url('images/pizza.jpg');
+}
+
+.yellow {
+    background-color: yellow;
+    background-image: url('images/cat.jpg');
+}
+
+.pink {
+    background-color: pink;
+    background-image: url('images/laptop.jpg');
+}
+
+.magenta {
+    background-color: magenta;
+    background-image: url('images/astronaut.jpg');
+}
+
+.indigo {
+    background-color: indigo;
+    background-image: url('images/panda.jpg');
+}
+
+/* url('images/pattern.jpg') */
+.color-hidden {
+    background-image: url('images/pattern.jpg');
+}
